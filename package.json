@@ -1,0 +1,15 @@
+{
+  "name": "wcoforever-addon",
+  "version": "1.0.0",
+  "description": "Stremio addon scaffold for Wcoforever (mock streams)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "stremio-addon-sdk": "^0.2.8"
+  },
+  "author": "myextrastuff04-netizen",
+  "license": "MIT"
+}
