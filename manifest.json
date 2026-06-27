@@ -1,0 +1,35 @@
+{
+  "id": "com.wcoforever.addon",
+  "version": "1.0.0",
+  "name": "Wcoforever",
+  "description": "Catalog and stream addon for series and movies.",
+  "logo": "https://example.com/logo.png",
+  "resources": ["catalog", "meta", "stream"],
+  "types": ["series", "movie"],
+  "idPrefixes": ["tt", "wcoforever_"],
+  "contact": "https://github.com/myextrastuff04-netizen",
+  "catalogs": [
+    {
+      "type": "series",
+      "id": "wcoforever_series",
+      "name": "Wcoforever Series",
+      "extra": [
+        { "name": "search", "isRequired": false },
+        { "name": "skip", "isRequired": false }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "wcoforever_movies",
+      "name": "Wcoforever Movies",
+      "extra": [
+        { "name": "search", "isRequired": false },
+        { "name": "skip", "isRequired": false }
+      ]
+    }
+  ],
+  "behaviorHints": {
+    "configurable": false,
+    "adult": false
+  }
+}
